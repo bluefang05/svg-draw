@@ -1,0 +1,37 @@
+#canvasrender{
+    width: 200px;
+    height: 100px;
+    
+}
+
+svg{
+    position: absolute;
+}
+
+#canvasrender{
+    position:absolute;
+    top: 0;
+    left: 0;
+    margin:0;
+    width: 100%;
+    height: 100%;
+}
+
+#svgcanvas{
+ 
+    position:absolute;
+    top: 0;
+    left: 0;
+    margin:0;
+    width: 100%;
+    height: 100%;   
+}
+
+#coords{
+    float: left;
+}
+
+#line {
+    stroke: red;
+    stroke-width:3px;
+}
